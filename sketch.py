@@ -8,7 +8,7 @@ try:
 			print(words)
 		except ValueError:
 			pass
-	data.close();
+	data.close();fasdsdfsdfsfsfaasfssfsd
 
 except IOError:
 	print("no data file")
