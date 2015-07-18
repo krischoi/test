@@ -6,9 +6,9 @@ try:
 			(role, words) = each_line.split(':', 1)
 			print(role)
 			print(words)
-		except:
+		except ValueError:
 			pass
+	data.close();
 
-	data.close()
-except:
+except IOError:
 	print("no data file")
